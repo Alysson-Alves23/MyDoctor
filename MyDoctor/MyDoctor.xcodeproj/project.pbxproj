@@ -15,6 +15,7 @@
 		C447505D2CB59FD500A9AD0B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447505C2CB59FD500A9AD0B /* Models.swift */; };
 		C447505F2CB5AC5B00A9AD0B /* RegistrarRemedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */; };
 		C447507F2CB6EE2100A9AD0B /* Estoque.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447507E2CB6EE2100A9AD0B /* Estoque.swift */; };
+		C44750812CB855B900A9AD0B /* ScreenIdoso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44750802CB855B900A9AD0B /* ScreenIdoso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C447505C2CB59FD500A9AD0B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarRemedio.swift; sourceTree = "<group>"; };
 		C447507E2CB6EE2100A9AD0B /* Estoque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estoque.swift; sourceTree = "<group>"; };
+		C44750802CB855B900A9AD0B /* ScreenIdoso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenIdoso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		C44750402CB59F4B00A9AD0B = {
 			isa = PBXGroup;
 			children = (
+				C44750802CB855B900A9AD0B /* ScreenIdoso.swift */,
 				C447507E2CB6EE2100A9AD0B /* Estoque.swift */,
 				C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */,
 				C447505C2CB59FD500A9AD0B /* Models.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C447504F2CB59F4B00A9AD0B /* ContentView.swift in Sources */,
+				C44750812CB855B900A9AD0B /* ScreenIdoso.swift in Sources */,
 				C447507F2CB6EE2100A9AD0B /* Estoque.swift in Sources */,
 				C447505F2CB5AC5B00A9AD0B /* RegistrarRemedio.swift in Sources */,
 				C447504D2CB59F4B00A9AD0B /* MyDoctorApp.swift in Sources */,

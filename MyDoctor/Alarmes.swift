@@ -31,13 +31,16 @@ struct AlarmeCard: View {
                 }
                 Text(remedio.detalhe).font(.headline)
             }
-        }.padding(.horizontal,22).frame(minWidth: 350,minHeight: 110).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2).cornerRadius(15)
+        }.padding(.horizontal,22).frame(minWidth: 350,minHeight: 110).overlay(
+            RoundedRectangle(cornerRadius: 15)
+                .stroke(Color.black, lineWidth: 3)
+        )
     }
 }
 
 // Lista de Alarmes
 struct AlarmeList: View {
-    @State var remedios: [Remedio] = carregarRemedios()
+    @State var remedios: [Remedio] = []
     
     var body: some View {
         VStack {
@@ -47,8 +50,9 @@ struct AlarmeList: View {
             }
         }.onAppear{
             remedios = carregarRemedios()
-        }
+         }
     }
+
 }
 
 // Tela principal dos Alarmes
